@@ -1,0 +1,18 @@
+package cr.ac.cenfotec.elemento;
+
+public abstract class Elemento {
+	String nombre = "desconocido";
+
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public abstract int vida();
+	
+	public abstract int ataque();
+	
+	public abstract int defensa();
+	
+	public abstract int magia();
+	
+}
